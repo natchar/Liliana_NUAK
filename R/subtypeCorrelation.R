@@ -4,7 +4,10 @@
 ## September 1, 2013
 ########################
 
-
+##-----------------------
+# Natchar Ratanasirigulchai
+# March 25, 2015
+##-----------------------
 `subtypeCorrelation` <- 
   function (eset, sig, method=c("pearson", "spearman", "kendall"), weighted=FALSE, condensed=TRUE, plot=TRUE, resdir="cache", nthread=1, sig.method, sig.scaling, label=c("symbol", "entrez")) {
     ## assess (weighted) correlation between gene expression with respect to subtypes
